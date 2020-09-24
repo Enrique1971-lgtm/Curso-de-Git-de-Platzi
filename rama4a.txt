@@ -1,0 +1,4 @@
+Comando para ver todos los commit que hemos hecho en el proyecto
+Es el comando git reflog
+En este nos indica informacion muy importante y sobretodo el hash
+o sha-1 de un commit
