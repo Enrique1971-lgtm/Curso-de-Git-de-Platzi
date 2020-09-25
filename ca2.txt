@@ -8,3 +8,6 @@ puerco
 ave
 aventura
 avestrux
+serpiente
+secta
+selecto
