@@ -5,3 +5,6 @@ peru
 pepino
 perico
 puerco
+ave
+aventura
+avestrux
