@@ -4,3 +4,7 @@ platano
 peru
 pepino
 perico
+<<<<<<< HEAD
+=======
+puerco
+>>>>>>> cabecera
