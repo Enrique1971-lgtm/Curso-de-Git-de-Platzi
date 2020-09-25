@@ -7,4 +7,10 @@ perico
 <<<<<<< HEAD
 =======
 puerco
+<<<<<<< HEAD
+>>>>>>> cabecera
+=======
+ave
+aventura
+avestrux
 >>>>>>> cabecera
