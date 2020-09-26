@@ -1,1 +1,3 @@
-testear y crear ramas
+Testear y crear ramas
+Branch son Ramas
+para cambiearme de ramas se utliza el comando git checkout
