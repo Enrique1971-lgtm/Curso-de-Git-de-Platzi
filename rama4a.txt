@@ -1,6 +1,0 @@
-Comando para ver todos los commit que hemos hecho en el proyecto
-Es el comando git reflog
-En este nos indica información muy importante y sobretodo el Hash
-o sha-1 de un commit
-Sha-1 Secure Hash Algorithm
-hash es un codigo criptografico muy utilizado en la tecnologia blackchain

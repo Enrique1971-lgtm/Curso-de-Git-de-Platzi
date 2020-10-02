@@ -1,2 +1,0 @@
-examinando si la fusion fue correcta
-ahora voy a practicar el comando git branch -v
