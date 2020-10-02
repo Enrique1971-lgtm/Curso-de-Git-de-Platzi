@@ -1,10 +1,6 @@
-cabecera
-cabeza
-caca
-coco
-cuete
-cuerno 
-cuete
-culero
-cubilete
-cielo
+
+He hecho muchas modificaciones y corregido miles de errores
+He creado un usuario y he colaborado en otro proyecto 
+utilizando He hecho muchas modificaciones y corregido miles de errores
+He creado un usuario y he colaborado en otro proyecto 
+utilizando ubuntu
