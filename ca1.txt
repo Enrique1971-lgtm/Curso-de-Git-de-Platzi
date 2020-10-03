@@ -4,4 +4,12 @@ He creado un usuario y he colaborado en otro proyecto
 utilizando He hecho muchas modificaciones y corregido miles de errores
 He creado un usuario y he colaborado en otro proyecto 
 utilizando ubuntu
-espero que ya pueda realizar todos los comandos correctamente
+ <<<<<<< master
+espero que ya pueda realizar todos los comandos correctamente.
+
+=======
+
+
+ creo que ya lo logre con este texto me doy por convencido
+ y me puedo ir a descansar agusto.
+ >>>>>>> master
