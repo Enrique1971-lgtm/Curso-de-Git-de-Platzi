@@ -75,3 +75,10 @@ Consideraciones:
     El cambio más reciente (al crear un stash) SIEMPRE recibe el valor 0 y los que estaban antes aumentan su valor.
     Al crear un stash tomará los archivos que han sido modificados y eliminados. Para que tome un archivo creado es necesario agregarlo al Staging Area con git add [nombre_archivo] con la intención de que git tenga un seguimiento de ese archivo, o también utilizando el comando git stash -u (que guardará en el stash los archivos que no estén en el staging).
     Al aplicar un stash este no se elimina, es buena práctica eliminarlo.
+
+
+Si arruinamos todo y queremos recuperarlo solo tenemos que dar el comando $git stash y Listadotodo vueleve
+a la normalidad y le damos $git stash list todos desaparece
+pero si queremos borrar todos lo stash le damos el comando 
+$git stash drop y listo no va aparecer ningun stash cuando le demos
+$git stash list.
