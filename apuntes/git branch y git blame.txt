@@ -1,0 +1,53 @@
+
+    git shortlog -sn = muestra cuantos commit han hecho cada miembros del equipo.
+    git shortlog -sn --all = muestra cuantos commit han hecho cada miembros del equipo hasta los que han sido eliminado
+    git shortlog -sn --all --no-merge = muestra cuantos commit han hecho cada miembros quitando los eliminados sin los merges
+    git blame ARCHIVO = muestra quien hizo cada cosa linea por linea
+    git COMANDO --help = muestra como funciona el comando.
+    git blame ARCHIVO -Llinea_inicial,linea_final= muestra quien hizo cada cosa linea por linea indicándole desde que linea ver ejemplo -L35,50
+    **git branch -r **= se muestran todas las ramas remotas
+    git branch -a = se muestran todas las ramas tanto locales como remotas
+
+
+* git blame  -c +nombre del archivo le damos mejor formato y que se vea mucho mejor el 
+texto.
+
+* git blame --help nos abre el manual para poder conocer mejor que es y que hace el comando
+* git blame +nombre del archivo+ -L1,3 Nos dice quien modifico las lineas de la 1 a la 3
+* git blame +nombre del archivo+ -L1,3 -c Nos permite visualizar mejor lo que estamos buscando
+ dentro de las lineas que le indicamos buscar.
+
+
+ $ git branch -Con este comando vremos las ramas Locales
+  cabecera
+  fix-typo
+  footer
+  header
+* master
+  readme-mejorado
+
+
+$ git branch -r -Con este comando vemos las Ramas Remotas
+  origin/cabecera
+  origin/fix-typo
+  origin/footer
+  origin/header
+  origin/master
+
+
+$ git branch -a -Con este comando vemos las Ramas Locales y las Ramas Remotas
+  cabecera
+  fix-typo
+  footer
+  header
+* master
+  readme-mejorado
+  remotes/origin/cabecera
+  remotes/origin/fix-typo
+  remotes/origin/footer
+  remotes/origin/header
+  remotes/origin/master
+
+  Nota: Tambien nos sirve para ver que ramas existe en local y no en remoto y vice
+
+
