@@ -26,3 +26,6 @@ y me puedo ir a descansar agusto al parecer hay un error espero que ya pueda ava
 
     se me olvidaron varias cosas.
     pero con el comando amend lo voy a corregir
+
+
+    ahora vamos con la parte dos del mismo commit
