@@ -26,6 +26,9 @@ En vez de HEAD, se puede usar cualquier HASH de commit de git.
 Además del argumento --mixed tenemos otros dos que son --hard y --soft.
 Ahora, detallando un poco cada uno de los argumentos tendríamos lo siguiente:
 
-    --hard → Esta es la opción más peligrosa aunque es la que se usa más frecuentemente. Con esta opción todo el trabajo que se encuentra en el staged se pierde y la cabecera de nuestro repositorio apuntará al commit indicado olvidándose de todo lo que sucedió después de ese commit.
-    --mixed → Este es el modo de funcionamiento predeterminado. Se actualizan los punteros del repositorio y todos los cambios que se hayan deshecho en el índice del entorno de ensayo e mueven al directorio de trabajo.
-    --soft → En esta opción a diferencia de la primera todo lo que estaba en el staged se conserva, únicamente actualiza la cabecera del repositorio al commit indicado.
+    --hard → Esta es la opción más peligrosa aunque es la que se usa más frecuentemente. Con esta opción todo el trabajo que se encuentra en el 
+    staged se pierde y la cabecera de nuestro repositorio apuntará al commit indicado olvidándose de todo lo que sucedió después de ese commit.
+    --mixed → Este es el modo de funcionamiento predeterminado. Se actualizan los punteros del repositorio y todos los cambios que se hayan
+    deshecho en el índice del entorno de ensayo e mueven al directorio de trabajo.
+    --soft → En esta opción a diferencia de la primera todo lo que estaba en el staged se conserva, únicamente actualiza la cabecera del repositorio 
+    al commit indicado.
