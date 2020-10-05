@@ -1,0 +1,31 @@
+Reflog
+
+Los registros de referencia también llamados reflogs son una funcionalidad de git que registra todos los eventos del repositorio. Cada vez que el extremo de tu rama se actualiza por cualquier motivo, se añade una nueva entrada a este registro.
+
+→ Mostrar el registro.
+
+$ git reflog
+
+→ Mostrar el registro relativo a la fecha especificada.
+
+$ git reflog --relative-date
+Reset
+
+Este comando borra toda la información de nuestra rama hasta el punto que le especifiquemos. La invocación predeterminada tiene argumentos implícitos, como lo detallo a continuación:
+
+→ Invocación predeterminada del comando
+
+$ git reset
+
+→ Invocación con sus argumentos implícitos.
+
+$ git reset --mixed HEAD
+
+En vez de HEAD, se puede usar cualquier HASH de commit de git.
+
+Además del argumento --mixed tenemos otros dos que son --hard y --soft.
+Ahora, detallando un poco cada uno de los argumentos tendríamos lo siguiente:
+
+    --hard → Esta es la opción más peligrosa aunque es la que se usa más frecuentemente. Con esta opción todo el trabajo que se encuentra en el staged se pierde y la cabecera de nuestro repositorio apuntará al commit indicado olvidándose de todo lo que sucedió después de ese commit.
+    --mixed → Este es el modo de funcionamiento predeterminado. Se actualizan los punteros del repositorio y todos los cambios que se hayan deshecho en el índice del entorno de ensayo e mueven al directorio de trabajo.
+    --soft → En esta opción a diferencia de la primera todo lo que estaba en el staged se conserva, únicamente actualiza la cabecera del repositorio al commit indicado.
