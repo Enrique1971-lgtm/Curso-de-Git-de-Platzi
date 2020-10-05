@@ -1,0 +1,23 @@
+Etiquetado
+
+Como muchos VCS, Git tiene la posibilidad de etiquetar puntos específicos del historial como importantes. 
+Esta funcionalidad se usa típicamente para marcar versiones de lanzamiento.
+Listar Tus Etiquetas
+Listar las etiquetas disponibles en Git es sencillo. Simplemente escribe git tag:
+$ git tag
+
+Crear Etiquetas
+* Git utiliza dos tipos principales de etiquetas: ligeras y anotadas.
+
+- Etiquetas Anotadas
+Crear una etiqueta anotada en Git es sencillo. La forma más fácil de hacerlo es especificar la opción -a cuando ejecutas el comando git tag:
+$ git tag -a v1.4 -m 'my version 1.4'
+
+-La opción -m especifica el mensaje de la etiqueta, el cual es guardado junto con ella. Si no especificas 
+el mensaje de una etiqueta anotada, Git abrirá el editor de texto para que lo escribas.
+
+Compartir Etiquetas
+
+Por defecto, el comando git push no transfiere las etiquetas a los servidores remotos. 
+Debes enviar las etiquetas de forma explícita al servidor luego de que las hayas creado. 
+Este proceso es similar al de compartir ramas remotas - puedes ejecutar git push origin [etiqueta].
