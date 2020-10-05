@@ -1,6 +1,8 @@
 Reflog
 
-Los registros de referencia también llamados reflogs son una funcionalidad de git que registra todos los eventos del repositorio. Cada vez que el extremo de tu rama se actualiza por cualquier motivo, se añade una nueva entrada a este registro.
+Los registros de referencia también llamados reflogs son una funcionalidad de git que registra todos los eventos del repositorio. 
+Cada vez que el extremo de
+tu rama se actualiza por cualquier motivo, se añade una nueva entrada a este registro.
 
 → Mostrar el registro.
 
@@ -11,7 +13,8 @@ $ git reflog
 $ git reflog --relative-date
 Reset
 
-Este comando borra toda la información de nuestra rama hasta el punto que le especifiquemos. La invocación predeterminada tiene argumentos implícitos, como lo detallo a continuación:
+Este comando borra toda la información de nuestra rama hasta el punto que le especifiquemos. La invocación predeterminada tiene 
+argumentos implícitos, como lo detallo a continuación:
 
 → Invocación predeterminada del comando
 
